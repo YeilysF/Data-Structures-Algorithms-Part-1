@@ -48,8 +48,8 @@ function reverseString(str){
 }
 
 reverseString(str1);
-reverseString("crazy person");
-reverseString('why are you here?');
+reverseString("testing");
+reverseString('how are you?');
 
 console.log('------------------------------------');
 console.log("(Udemy ANS - Clean Version): Approach 3 - O(n)");
@@ -62,8 +62,8 @@ function reverseString2(str){
 }
 
 reverseString2(str1);
-reverseString2("crazy person");
-reverseString2('why are you here?');
+reverseString2("testing");
+reverseString2('how are you?');
 
 console.log('------------------------------------');
 console.log("(Udemy ANS - Clean Version): Approach 4 - O(n)");
@@ -72,5 +72,5 @@ console.log('------------------------------------');
 const reverseString3 = str => [...str].reverse().join('');
 
 reverseString3(str1);
-reverseString3("crazy person");
-reverseString3('why are you here?');
+reverseString3("testing");
+reverseString3('how are you?');
